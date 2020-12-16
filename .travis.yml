@@ -24,13 +24,13 @@ deploy:
     app: egc-app-decide-prod
     strategy: git
     api_key: $HEROKU_AUTH_TOKEN
-      on:
-        branch: master
+    on:
+      branch: master
   - provider: heroku
     app: egc-app-decide-pre
     strategy: git
     api_key: $HEROKU_AUTH_TOKEN
-      on:
-        branch: cosasNuevas
+    on:
+      branch: cosasNuevas
 
 
