@@ -179,4 +179,7 @@ if os.path.exists("config.jsonnet"):
         vars()[k] = v
 
 
+
 INSTALLED_APPS = INSTALLED_APPS + MODULES
+
+import django_heroku
