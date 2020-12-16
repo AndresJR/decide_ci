@@ -164,7 +164,7 @@ KEYBITS = 256
 # Versioning
 ALLOWED_VERSIONS = ['v1', 'v2']
 DEFAULT_VERSION = 'v1'
-
+APIS={}
 try:
     from local_settings import *
 except ImportError:
