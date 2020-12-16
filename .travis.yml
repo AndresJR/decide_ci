@@ -20,7 +20,17 @@ script:
   - coverage xml
   - python-codacy-coverage -r coverage.xml
 deploy:
-  provider: heroku
-  app: egc-app-decide3
+  - provider: heroku
+  app: egc-app-decide-prod
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
+    on:
+      branch: master
+  - provider: heroku
+  app: egc-app-decide-pre
+  strategy: git
+  api_key: $HEROKU_AUTH_TOKEN
+    on:
+      branch: cosasraras
+
+
