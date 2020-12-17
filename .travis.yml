@@ -30,7 +30,8 @@ deploy:
   - provider: heroku
     app: egc-app-decide-pre
     strategy: git
-    api_key: $HEROKU_AUTH_TOKEN
+    api_key: 
+      secure: LbKYD0XAWOUbekxSwONv62G5+zruHW2qyzwj+JpAXQrtts/OkvedPfldKHc9ZnGQS2jjGaQTB5+9pUMksd+ucWy4HCCM37+EXqPIc6uLhb9BepmJm34c0vr9CDg4XgF48kGNDJ1O9Nty+gxc3OUlIttvSbxFBY8WGOASDM5ohcV0Pj68c5F3pNBeioVh6guVzXSfRI+k8bWUeFhJhEaXQGEkbxrR2Wqag1kBh8BYaay3u6iu1XBrD2pcOzxhaF5MuDl/wUM5OlRRw+gIDBoZxMf3NVrk52ZkPXE7gaQuah33abzSb3eq7JCPugviFLtWHRA25i6sK8PZN6bSLwMIlOrTz04tJcybGEMLkjsRjbV0rsoG50fhDZ+VhGbkk0y8krSBJCYK/5eC0ArJsfmD2ed1Iq8bU1bYNJJGaeEZz3GQL9A9G3E4uatjFm9QyPgOV6DARJVGlWM6/DNThMI/cndRDpZ8tJSY6R+Vib+wYBvM75kj/yhFICS8TwX9/fBqCARiGB9VjPOBVGlGJskMnQSolx9JxAYUzO09RDRpKVXsk/Xn9DVPPdONVw6+ZYohMHa+CREL7qvPUU773lPDW2XWQ/JWCkgzZ2SwftwycLUPBmr5Hse6ihTzHBQq/2ToKeqGmZPjNUsP4Z/JuITCSrtTGUESE4pvu8hb102/Nw4=
     on:
       branch: cosasNuevas
 
